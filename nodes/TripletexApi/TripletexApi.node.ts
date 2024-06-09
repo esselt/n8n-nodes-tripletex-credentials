@@ -1,6 +1,4 @@
 import {
-	IExecuteFunctions,
-	INodeExecutionData,
 	INodeType,
 	INodeTypeDescription,
 } from 'n8n-workflow';
@@ -19,10 +17,4 @@ export class TripletexApi implements INodeType {
 		outputs: ['main'],
 		properties: [],
 	};
-
-	// The function below is only present to allow the node to execute
-	async execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]> {
-		const items = this.getInputData();
-		return this.prepareOutputData(items);
-	}
 }

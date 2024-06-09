@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-tripletex-credentials",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "n8n node repository to create custom credentials for Tripletex to be used with the HTTPRequest node",
   "keywords": [
     "n8n-community-node-package",
