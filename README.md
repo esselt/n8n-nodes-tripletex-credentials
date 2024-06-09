@@ -1,4 +1,4 @@
-# n8n-nodes-_node-name_
+# n8n-nodes-tripletex-credentials
 
 This is an n8n community node. It lets you use Tripletex API with the default HTTP Request node in your n8n workflows.
 
