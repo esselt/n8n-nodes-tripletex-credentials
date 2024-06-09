@@ -7,6 +7,7 @@ export class TripletexApi implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Tripletex API',
 		name: 'tripletexApi',
+		icon: 'file:tripletex.svg',
 		group: [],
 		version: 1,
 		description: 'This node is only present to allow Tripletex API credentials to be installed',
