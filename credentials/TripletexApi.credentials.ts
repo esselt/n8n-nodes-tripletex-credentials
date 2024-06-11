@@ -10,7 +10,8 @@ import type {
 export class TripletexApi implements ICredentialType {
 	name = 'tripletexApi';
 	displayName = 'Tripletex API';
-	documentationUrl = 'https://developer.tripletex.no/docs/documentation/authentication-and-tokens/';
+	icon = 'file:tripletex.svg';
+	documentationUrl = 'https://github.com/esselt/n8n-nodes-tripletex-credentials.git';
 	genericAuth = true;
 
 	properties: INodeProperties[] = [
